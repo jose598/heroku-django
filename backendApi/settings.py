@@ -85,11 +85,11 @@ CORS_ORIGIN_ALLOW_ALL = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'app_api',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306'
+        'NAME': 'knoot',
+        'USER': 'jose598',
+        'PASSWORD': 'Jose555.',
+        'HOST': 'jose598.mysql.pythonanywhere-services.com',
+       # 'PORT': '3306'
     }
 }
 

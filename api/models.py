@@ -49,7 +49,6 @@ class User(AbstractBaseUser):
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=True)
     is_superuser = models.BooleanField(default=False)
-    persona= models.OneToOneField(Persona, on_delete=models.CASCADE, null=True)
 
 
     USERNAME_FIELD='email'
